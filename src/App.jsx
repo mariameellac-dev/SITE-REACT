@@ -296,8 +296,10 @@ const prevSlide = () => {
 
   return (
  <>
+ 
+    {/* NAVBAR 
  <nav className={`fixed top-0 left-0 w-full bg-[#F4F3ED] py-2 md:py-4 z-50 ${scrolled ? "shadow-md" : ""}`}>
-        <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
           <img src="logo.png" alt="Logo" className="w-14 md:w-20 m-2 md:m-5" />
 
 <button className="md:hidden text-black text-3xl mr-1" onClick={() => setOpen(!open)}>
@@ -318,6 +320,7 @@ const prevSlide = () => {
 
       </div>
     </nav>
+     */}
 
 
 
